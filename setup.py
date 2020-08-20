@@ -16,5 +16,5 @@ setup(
             'my_custom_sklearn_transforms'
       ],
       zip_safe=False,
-      install_requires=['pandas','numpy']
+      install_requires=['pandas','numpy','imbalanced-learn==0.4.2']
 )
